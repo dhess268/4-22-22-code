@@ -40,3 +40,49 @@ function binToDec(bin){
   function setAlarm(employed, vacation){
     return employed && !vacation
   }
+
+
+  function preFizz(n) {
+    let arr = [];
+
+    for(let i = 1; i <= n; i++){
+        arr.push(i);
+    }
+
+    return arr;
+}
+
+
+// Add rooms here
+var rooms = {
+    bathroom: 
+    {
+      hasLights: true,
+      hasSink: true,
+      hasJoe: false
+    },
+    livingRoom:
+    {
+      hasLights: true,
+      hasSink: false,
+      hasJoe: true
+    },
+      kitchen:
+    {
+      hasLights: false,
+      hasSink: true,
+      hasJoe: false
+    }
+  }
+
+
+
+  // removes last character and first character from string
+
+  function removeChar(str){
+    return str.slice(1, str.length-1)
+  };
+  
+  
+  
+  
